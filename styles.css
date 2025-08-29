@@ -1,0 +1,30 @@
+/* ====== THEME VARIABLES ======
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --card: #f8fafc;
+  --border: #e5e7eb;
+  --c1: #ff6b6b;
+  --c2: #f7b500;
+  --c3: #34d399;
+  --c4: #22d3ee;
+  --c5: #60a5fa;
+  --c6: #a78bfa;
+  --nav-text: #ffffff;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  --radius: 14px;
+  --focus: 0 0 0 3px rgba(34, 211, 238, 0.45);
+}
+:root.dark {
+  --bg: #0b1220;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --card: #0f172a;
+  --border: #1f2937;
+  --nav-text: #f9fafb;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  --focus: 0 0 0 3px rgba(99, 102, 241, 0.45);
+}
+
+/* Include all your remaining CSS here (body, navbar, hero, cards, footer, media queries, animations, etc) */
